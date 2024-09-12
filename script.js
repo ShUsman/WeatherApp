@@ -18,7 +18,7 @@ async function getWeather(api) {
     try {
         const response = await fetch(api);
         const data = await response.json();
-        if(data.ok){
+        if(response.status == 200){
             showWeather(data);
         } else {
             alert("ошибка, пиши нормально " + data.error.message);
