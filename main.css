@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+}
+
+.header-input {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.weather-today {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
