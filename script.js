@@ -28,6 +28,8 @@ async function getWeather(api) {
     };
 };
 
+// edit post page
+
 
 function showWeather(data) {
     main.innerHTML = "";
